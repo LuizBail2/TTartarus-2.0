@@ -25,7 +25,7 @@ section .Topo .ImgCerberus{
 .Topo p{
     font-family: Greek Freak;
     font-size: 30px;
-    color: #ff9933;
+    color: orange;
     margin: 40px 0;
 }
 /* Logo Flutuando */
