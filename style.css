@@ -1,0 +1,498 @@
+/* Topo do Site */
+section .Topo{
+    padding: 40px 4%;
+    justify-content: center;
+}
+
+section .Topo .ImgCerberus{
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Topo h1{
+    font-family: Greek Freak;
+    color:  #ff9933;
+    font-size: 60px;
+    line-height: 47px;
+}
+
+.Topo p{
+    font-family: Greek Freak;
+    font-size: 25px;
+    color: rgb(33, 7, 161);
+    margin: 40px 0;
+}
+/* Logo Flutuando */
+.ImgCerberus img{
+    position: relative;
+    animation: flutuar 1s ease-in-out infinite alternate;
+}
+
+.Mão img{
+    display: flex;
+    position: relative;
+    animation: flutuar 1s ease-in-out infinite alternate;
+}
+
+.Clik {
+    color: red;
+    font-size: 25px;
+    font-family: Greek Freak;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+    gap: 50px; 
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/* Rodapé do Site */
+footer {
+        background-color: black; 
+        color: orangered;
+        text-align: center;
+        padding: 10px;
+        font-family: 'Arial', sans-serif;
+        text-shadow: 0 0 15px orangered; 
+        border-radius: 16px;
+    }
+
+/* vídeo de fundo */
+#background-video {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+    opacity: 0.8; /
+}
+
+@media (max-width: 768px) {
+    .video-background {
+        object-fit: cover;
+    }
+}
+
+
+/* Estilos para o conteúdo do video */
+.content {
+    position: relative; 
+    z-index: 1; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+/* Estilos básicos */
+body {
+    
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #0a8c5c;
+}
+
+.jogo {
+    margin-bottom: 20px;
+    background-color: #707070;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+.jogo3 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+.jogo5 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+.jogo7 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+.jogo8 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+.jogo11 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+.jogo12 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+.jogo15 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+
+.jogo17 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+.jogo18 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+.jogo20 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+.jogo22 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+.jogo23 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+.jogo28 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+.jogo29 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+.jogo30 {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgb(53, 3, 122);
+}
+
+/* Oculta o radio */
+.toggle {
+    display: none;
+}
+
+/* Estilo do nome do jogo */
+.jogo-nome3 {
+    width: 220px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 0 0 5px orange;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.jogo-nome5 {
+    width: 125px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 0 0 5px orange;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.jogo-nome7 {
+    width: 185px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 0 0 5px orange;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.jogo-nome8 {
+    width: 146px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 0 0 5px orange;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.jogo-nome11 {
+    width: 235px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 0 0 5px orange;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.jogo-nome12 {
+    width: 160px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 0 0 5px orange;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.jogo-nome15 {
+    width: 230px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 0 0 5px orange;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.jogo-nome17 {
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 0 0 5px orange;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.jogo-nome18 {
+    width: 95px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 0 0 5px orange;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.jogo-nome20 {
+    width: 155px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 0 0 5px orange;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.jogo-nome22 {
+    width: 285px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 0 0 5px orange;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.jogo-nome23 {
+    width: 132px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 0 0 5px orange;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.jogo-nome28 {
+    width: 315px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 0 0 5px orange;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.jogo-nome29 {
+    width: 220px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 0 0 5px orange;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.jogo-nome30 {
+    width: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    box-shadow: 0 0 5px orange;
+    border-radius: 40px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* lista de celulares */
+.celulares {
+    max-height: 0;
+    overflow: hidden;
+    background-color: black;
+    padding: 0 20px;
+    border-radius: 10px;
+    transition: max-height 0.6s ease;
+}
+/* adicionando efeito de rolagem */
+.celulares ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    max-height: 150px; 
+    overflow-y: auto; 
+    scroll-behavior: smooth; 
+}
+
+/* itens na lista */
+.celulares li {
+    margin-bottom: 5px;
+}
+
+/* barra de rolagem */
+.celulares ul::-webkit-scrollbar {
+    width: 6px;
+}
+
+.celulares ul::-webkit-scrollbar-track {
+    background: white; 
+    border-radius: 8px;
+}
+
+.celulares ul::-webkit-scrollbar-thumb {
+    background-color: orange;
+    border-radius: 8px; 
+    border: 4px solid orange;
+}
+
+/* lista de celulares com transição */
+.toggle:checked + label + .celulares {
+    max-height: 200px;
+    padding: 12px;
+    transition: max-height 0.6s ease;
+}
+
+/* transições suaves */
+.celulares {
+    transition: max-height 0.6s ease;
+    color: burlywood;
+}
+
+.celulares ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 5px;
+    text-shadow: 0 0 25px rgb(0, 0, 251);
+}
+
+.celulares li {
+    margin-bottom: 5px;
+    color: white;
+}
