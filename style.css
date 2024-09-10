@@ -19,13 +19,13 @@ section .Topo .ImgCerberus{
     font-family: Greek Freak;
     color:  #ff9933;
     font-size: 60px;
-    line-height: 47px;
+    line-height:47px;
 }
 
 .Topo p{
     font-family: Greek Freak;
-    font-size: 25px;
-    color: rgb(33, 7, 161);
+    font-size: 30px;
+    color: #ff9933;
     margin: 40px 0;
 }
 /* Logo Flutuando */
@@ -41,7 +41,7 @@ section .Topo .ImgCerberus{
 }
 
 .Clik {
-    color: red;
+    color: #ff9933;
     font-size: 25px;
     font-family: Greek Freak;
     margin: 30px 0;
